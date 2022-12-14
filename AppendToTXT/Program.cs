@@ -5,7 +5,7 @@ class Test
 {
     public static void Main()
     {
-        string[] files = Directory.GetFiles(@"\\192.168.171.31\ebs\out", "*", SearchOption.TopDirectoryOnly);
+        string[] files = Directory.GetFiles(@"\\XXX.XXX.XXX.XXX\mega\secret", "*", SearchOption.TopDirectoryOnly);
         if (files.Length != 0)
         {
             foreach (string name in files)
