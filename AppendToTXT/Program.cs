@@ -19,7 +19,7 @@ class Test
                 Console.WriteLine(input);
                 var lastLine = File.ReadLines(input).Last();
                 var secondLast = File.ReadLines(input);
-                if (secondLast.Contains("S1:000000000 000000000000000") && lastLine.Contains("S3:000000000 000"))
+                if (secondLast.Contains(firstLine) && lastLine.Contains(secondLine))
                 {
                     Console.WriteLine(" ");
                     Console.WriteLine("Soubor již obsahuje přidané řádky");
